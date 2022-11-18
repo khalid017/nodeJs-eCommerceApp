@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/css/pHeader.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<header>
+    <h1>Shopify.com</h1>
+     <h2>Welcome <%= username %></h1>
+     <% if(username==="new user"){ %>
+          <a href="/login"><button class="button">Login</button></a>
+          <a href="/cart"><button class="button">Cart</button></a>
+    <% }else { %>
+       <a href="/logout"><button class="button">Logout</button></a>
+    <a href="/changePass"><button class="button">Change password</button></a>
+    <a href="/cart"><button class="button">Cart</button></a>
+      <% }%>
+    
+</header>

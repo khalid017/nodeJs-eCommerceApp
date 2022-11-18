@@ -1,0 +1,21 @@
+body{
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 1em;
+    margin-bottom: 30px;
+  
+}
+
+#items{
+   width: 480px;
+    margin-left: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.button{
+    margin-left: 30px;
+}
+#load{
+    margin-left: 30px;
+    margin-top: 10px;
+}
